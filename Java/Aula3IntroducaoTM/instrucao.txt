@@ -1,0 +1,18 @@
+Exercício 1.Crie a interface Precedente<T> com um método public int precedeA(T t).
+2.Crie a classe Pessoa, com os atributos String nome e cpf, seus métodos de acesso e os construtores
+que você considera apropriados.
+3. Criar uma classe Pessoa que implemente Precedente<Pessoa>, logo sobrescrever o método int precedeA(Pessoa p).
+4. Defina um critério de precedência para implementar o método acima. Pode ser que uma pessoa preceda outra se
+o seu CPF for inferior, ou o nome for alfabeticamente inferior e assim por diante.
+5. Crie a classe SortUtil como método public static<T>sort(Precedente<T>arr[]).
+6. Dentro do método anterior, desenvolva o algoritmo de bolha(bubblesort) para ordenar a matriz.
+
+7. Discussão: O método de classificação pode classificar uma matriz de qualquer tipo de dados?
+8. Crie um programa, declare um array com várias pessoas, classifique-o e exiba-o.
+9. Crie a classe Celular, com os atributos: number e holder, implemente Precedente<Celular> e proceda da
+mesma forma que fizemos com Pessoa do ponto anterior.
+
+Exercício 2
+Discussão: se quisermos mudar o critério de precedência entre duas pessoas ou dois celulares,
+o que devemos fazer? Quão extensível e sustentável é a solução de ordenação que desenvolvemos
+no exercício anterior? Como poderia ser melhorado?

@@ -1,6 +1,13 @@
+Java.iml
+Bootcamp.iml
+*.iml
+.idea
+out/
+*.xml
+
 # Compiled class file
 *.class
-.idea
+
 # Log file
 *.log
 
